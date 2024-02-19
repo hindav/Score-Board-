@@ -1,0 +1,84 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #f0f0f0; /* Replace with your desired color */
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.sk {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+  color: #333;
+}
+
+.players {
+  margin: 20px 0;
+}
+
+h2 {
+  font-family: cursive;
+  font-size: 6em;
+}
+
+.label {
+  margin-top: 10px;
+}
+
+label {
+  font-size: 1.2em;
+}
+
+.score {
+  margin-top: 15px;
+}
+
+.limit {
+  width: 60px;
+  padding: 5px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.footer {
+  position: fixed; /* or position: absolute; depending on your needs */
+  bottom: 0;
+}
+
+small {
+  margin-bottom: 0; /* Optional: Reset any default margin */
+}
